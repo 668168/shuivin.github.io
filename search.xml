@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[win10WSL关闭声音方法理清]]></title>
+    <url>%2Fpost%2Fd73bd557.html</url>
+    <content type="text"><![CDATA[wsl 关闭声音方法网文不行，自己摸索的方法 在vim 里面的关闭方法在.vimrc的配置里面加入如下行即可 “ set vb t_vb= “关闭提示音 vim外面终端烦人的tab音网文说在~/inputrc 里面添加如下code,我这边测试无效. set bell-style none,我用如下方法可以解决问题.编辑 /etc/inputrc，找到#set bell-style none这一行，去掉前面的注释符号。]]></content>
+      <tags>
+        <tag>网管</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[关于Hexo博客的遗留问题总结]]></title>
     <url>%2Fpost%2Fd2f953d1.html</url>
     <content type="text"><![CDATA[今晚折腾总结 实现的功能.post 模板修改 copyright 默认为true tags 标签模板修改为默认多标签 加入more关键字 typora和hexo的配合,插入图片功能目前是把所有的文章图片都丢到一起. 查看网文,有人也和我. 遗留问题 typora&amp;hexo目前都没有完美的办法放到单个文章对应的目录下面. 右下角动画按照这位兄台的修改 留言系统也要按照这位兄台的修改]]></content>
